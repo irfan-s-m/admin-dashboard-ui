@@ -5,13 +5,13 @@ import Footer from "../components/Footer";
 
 const Layout = () => {
     return (
-        <div>
+        <div className="bg-mainBg text-textMainColor">
             <Navbar />
-            <div>
-                <div>
+            <div className="flex">
+                <div className="w-64 pt-1 pr-5 border-r-2 border-softBg">
                     <Menu></Menu>
                 </div>
-                <div>
+                <div className="w-full pt-1 pr-5">
                     <Outlet></Outlet>
                 </div>
             </div>
