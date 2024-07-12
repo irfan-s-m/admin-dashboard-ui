@@ -26,7 +26,7 @@ const Navbar = () => {
                 </div>
                 <div className="flex justify-center items-center">
                     <IoIosNotifications></IoIosNotifications>
-                    <span className="w-3 relative bottom-4 bg-red-600 rounded-lg">1</span>
+                    <span className="w-3 h-6 relative bottom-4 bg-red-600 rounded-lg">1</span>
                 </div>
                 <div className="flex items-center gap-1">
                     <img className="w-5 rounded-full object-cover" src={userImage} alt="" />
