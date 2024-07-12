@@ -16,15 +16,15 @@ import { TbLogs } from "react-icons/tb";
 
 const Menu = () => {
     return (
-        <div className="pl-5 ">
+        <div className="pl-5">
             <div className="main flex flex-col gap-1">
                 <span className="text-textSoftColor">Main</span>
-                <Link to='/' className="flex gap-2 items-center pl-3">
+                <Link to='/' className="flex gap-2 items-center pl-3 hover:bg-softBg rounded-lg">
                     <IoHomeOutline></IoHomeOutline>
                     <span>
                         Home
                     </span></Link>
-                <Link to='profile' className="flex gap-2 items-center pl-3">
+                <Link to='profile' className="flex gap-2 items-center pl-3 hover:bg-softBg rounded-lg">
                     <CgProfile></CgProfile>
                     <span>
                         Profile
@@ -32,22 +32,22 @@ const Menu = () => {
             </div>
             <div className="Lists flex flex-col gap-1">
                 <span className="text-textSoftColor">Lists</span>
-                <Link to='/users' className="flex gap-2 items-center pl-3">
+                <Link to='/users' className="flex gap-2 items-center pl-3 hover:bg-softBg rounded-lg">
                     <LuUsers></LuUsers>
                     <span>
                         Users
                     </span></Link>
-                <Link to='products' className="flex gap-2 items-center pl-3">
+                <Link to='products' className="flex gap-2 items-center pl-3 hover:bg-softBg rounded-lg">
                     <IoCartOutline></IoCartOutline>
                     <span>
                         Products
                     </span></Link>
-                <Link to='/orders' className="flex gap-2 items-center pl-3">
+                <Link to='/orders' className="flex gap-2 items-center pl-3 hover:bg-softBg rounded-lg">
                     <MdOutlineBorderColor></MdOutlineBorderColor>
                     <span>
                         Orders
                     </span></Link>
-                <Link to='posts' className="flex gap-2 items-center pl-3">
+                <Link to='posts' className="flex gap-2 items-center pl-3 hover:bg-softBg rounded-lg">
                     <BsPostcard></BsPostcard>
                     <span>
                         Posts
@@ -55,22 +55,22 @@ const Menu = () => {
             </div>
             <div className="general flex flex-col gap-1">
                 <span className="text-textSoftColor">General</span>
-                <Link to='/' className="flex gap-2 items-center pl-3">
+                <Link to='/' className="flex gap-2 items-center pl-3 hover:bg-softBg rounded-lg">
                     <LiaElementor></LiaElementor>
                     <span>
                         Elements
                     </span></Link>
-                <Link to='notes' className="flex gap-2 items-center pl-3">
+                <Link to='notes' className="flex gap-2 items-center pl-3 hover:bg-softBg rounded-lg">
                     <CgNotes></CgNotes>
                     <span>
                         Notes
                     </span></Link>
-                <Link to='/' className="flex gap-2 items-center pl-3">
+                <Link to='/' className="flex gap-2 items-center pl-3 hover:bg-softBg rounded-lg">
                     <FaWpforms></FaWpforms>
                     <span>
                         Forms
                     </span></Link>
-                <Link to='Profile' className="flex gap-2 items-center pl-3">
+                <Link to='Profile' className="flex gap-2 items-center pl-3 hover:bg-softBg rounded-lg">
                     <FaRegCalendarAlt></FaRegCalendarAlt>
                     <span>
                         Calendar
@@ -78,12 +78,12 @@ const Menu = () => {
             </div>
             <div className="maintenance flex flex-col gap-1">
                 <span className="text-textSoftColor">Maintenance</span>
-                <Link to='/' className="flex gap-2 items-center pl-3">
+                <Link to='/' className="flex gap-2 items-center pl-3 hover:bg-softBg rounded-lg">
                     <IoSettingsOutline></IoSettingsOutline>
                     <span>
                         Settings
                     </span></Link>
-                <Link to='notes' className="flex gap-2 items-center pl-3">
+                <Link to='notes' className="flex gap-2 items-center pl-3 hover:bg-softBg rounded-lg">
                     <MdOutlineBackup></MdOutlineBackup>
                     <span>
                         Backups
@@ -91,12 +91,12 @@ const Menu = () => {
             </div>
             <div className="analytics flex flex-col gap-1">
                 <span className="text-textSoftColor">Analytics</span>
-                <Link to='/' className="flex gap-2 items-center pl-3">
+                <Link to='/' className="flex gap-2 items-center pl-3 hover:bg-softBg rounded-lg">
                     <HiOutlineChartSquareBar></HiOutlineChartSquareBar>
                     <span>
                         Charts
                     </span></Link>
-                <Link to='Profile' className="flex gap-2 items-center pl-3">
+                <Link to='Profile' className="flex gap-2 items-center pl-3 hover:bg-softBg rounded-lg">
                     <TbLogs></TbLogs>
                     <span>
                         Logs

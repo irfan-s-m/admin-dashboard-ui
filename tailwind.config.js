@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      gridAutoRows: {
+        'min-180': 'minmax(165px, auto)',
+      },
       colors: {
         mainBg: 'var(--color-main-bg)',
         softBg:'var(--color-soft-bg)',
