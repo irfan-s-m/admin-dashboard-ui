@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <div className="flex justify-between items-center px-4">
+        <div className="flex justify-between items-center p-4">
             <div>
                 <h1 className="text-lg hover:text-green-300">© Irfan Riyadh</h1>
             </div>

@@ -6,12 +6,13 @@ import { IoIosNotifications } from "react-icons/io";
 import { IoSettingsOutline } from "react-icons/io5";
 // import { FaRegUser } from "react-icons/fa";
 import userImage from '../../public/noavatar.png'
+import { Link } from "react-router-dom";
 const Navbar = () => {
     return (
         <div className="navbar w-full p-5 flex items-center justify-between font-semibold text-lg">
-            <div className="flex">
+            <div className="flex gap-1">
                 <RiAdminLine className="text-2xl"></RiAdminLine>
-                <span>Irfan</span>
+                <Link><span>Irfan</span></Link>
             </div>
             <div className="flex items-center gap-3">
                 <div>

@@ -16,8 +16,8 @@ import { TbLogs } from "react-icons/tb";
 
 const Menu = () => {
     return (
-        <div className="pl-5">
-            <div className="main flex flex-col gap-1">
+        <div className="pl-5 flex flex-col gap-4">
+            <div className="main flex flex-col gap-2">
                 <span className="text-textSoftColor">Main</span>
                 <Link to='/' className="flex gap-2 items-center pl-3 hover:bg-softBg rounded-lg">
                     <IoHomeOutline></IoHomeOutline>
@@ -30,7 +30,7 @@ const Menu = () => {
                         Profile
                     </span></Link>
             </div>
-            <div className="Lists flex flex-col gap-1">
+            <div className="Lists flex flex-col gap-2">
                 <span className="text-textSoftColor">Lists</span>
                 <Link to='/users' className="flex gap-2 items-center pl-3 hover:bg-softBg rounded-lg">
                     <LuUsers></LuUsers>
@@ -53,7 +53,7 @@ const Menu = () => {
                         Posts
                     </span></Link>
             </div>
-            <div className="general flex flex-col gap-1">
+            <div className="general flex flex-col gap-2">
                 <span className="text-textSoftColor">General</span>
                 <Link to='/' className="flex gap-2 items-center pl-3 hover:bg-softBg rounded-lg">
                     <LiaElementor></LiaElementor>
@@ -76,7 +76,7 @@ const Menu = () => {
                         Calendar
                     </span></Link>
             </div>
-            <div className="maintenance flex flex-col gap-1">
+            <div className="maintenance flex flex-col gap-2">
                 <span className="text-textSoftColor">Maintenance</span>
                 <Link to='/' className="flex gap-2 items-center pl-3 hover:bg-softBg rounded-lg">
                     <IoSettingsOutline></IoSettingsOutline>
@@ -89,7 +89,7 @@ const Menu = () => {
                         Backups
                     </span></Link>
             </div>
-            <div className="analytics flex flex-col gap-1">
+            <div className="analytics flex flex-col gap-2">
                 <span className="text-textSoftColor">Analytics</span>
                 <Link to='/' className="flex gap-2 items-center pl-3 hover:bg-softBg rounded-lg">
                     <HiOutlineChartSquareBar></HiOutlineChartSquareBar>
