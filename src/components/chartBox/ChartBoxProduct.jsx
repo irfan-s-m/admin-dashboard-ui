@@ -4,7 +4,7 @@ import { chartBoxProduct } from "../../utils/data";
 
 const ChartBoxProduct = () => {
 
-    const { title, number, percentage, dataKey, chartData } = chartBoxProduct;
+    const { title, number, percentage, dataKey, chartData, color } = chartBoxProduct;
 
     return (
         <div className="flex">
@@ -26,13 +26,13 @@ const ChartBoxProduct = () => {
                             <Line
                                 type="monotone"
                                 dataKey={dataKey}
-                                stroke="#8884d8"
+                                stroke={color}
                                 strokeWidth={2}
                                 dot={false} />
                         </LineChart>
                     </ResponsiveContainer>
                 </div>
-                <h1 className="text-lg"><span className={percentage > 0 ? "text-lime-600" : "text-red-600"}>{percentage}%</span> this month</h1>
+                <h1 className="text-lg"><span className={percentage > 0 ? "text-lime-400" : "text-red-400"}>{percentage}%</span> this month</h1>
             </div>
         </div>
 

@@ -4,7 +4,7 @@ import { chartBoxRevenue } from "../../utils/data";
 
 
 const ChartBoxRevunue = () => {
-    const { title, number, percentage, dataKey, chartData } = chartBoxRevenue;
+    const { title, number, percentage, dataKey, chartData, color } = chartBoxRevenue;
 
     return (
         <div className="flex">
@@ -26,13 +26,13 @@ const ChartBoxRevunue = () => {
                             <Line
                                 type="monotone"
                                 dataKey={dataKey}
-                                stroke="#8884d8"
+                                stroke={color}
                                 strokeWidth={2}
                                 dot={false} />
                         </LineChart>
                     </ResponsiveContainer>
                 </div>
-                <h1 className="text-lg"><span className={percentage > 0 ? "text-lime-600" : "text-red-600"}>{percentage}%</span> this month</h1>
+                <h1 className="text-lg"><span className={percentage > 0 ? "text-lime-400" : "text-red-400"}>{percentage}%</span> this month</h1>
             </div>
         </div>
     );
