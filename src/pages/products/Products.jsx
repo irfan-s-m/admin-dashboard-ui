@@ -1,7 +1,9 @@
+import ChartBox from "../../components/chartBox/ChartBox";
+
 const Products = () => {
     return (
         <div>
-            <h1>products</h1>
+            <ChartBox></ChartBox>
         </div>
     );
 };
