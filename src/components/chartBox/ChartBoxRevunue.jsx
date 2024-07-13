@@ -1,8 +1,10 @@
-import { Line, LineChart, ResponsiveContainer, Tooltip } from "recharts";
-import { chartBoxUser } from "../../utils/data";
 import { Link } from "react-router-dom";
-const ChartBox = () => {
-    const { title, number, percentage, dataKey, chartData } = chartBoxUser;
+import { Line, LineChart, ResponsiveContainer, Tooltip } from "recharts";
+import { chartBoxRevenue } from "../../utils/data";
+
+
+const ChartBoxRevunue = () => {
+    const { title, number, percentage, dataKey, chartData } = chartBoxRevenue;
 
     return (
         <div className="flex">
@@ -11,7 +13,7 @@ const ChartBox = () => {
                     {title}
                 </h3>
                 <h2 className="font-semibold text-xl">{number}</h2>
-                <Link to='users' className="text-green-600">view all</Link>
+                <Link to='products' className="text-green-600">view all</Link>
             </div>
             <div className="flex flex-col">
                 <div>
@@ -33,8 +35,7 @@ const ChartBox = () => {
                 <h1 className="text-lg"><span className={percentage > 0 ? "text-lime-600" : "text-red-600"}>{percentage}%</span> this month</h1>
             </div>
         </div>
-
     );
 };
 
-export default ChartBox;
+export default ChartBoxRevunue;
